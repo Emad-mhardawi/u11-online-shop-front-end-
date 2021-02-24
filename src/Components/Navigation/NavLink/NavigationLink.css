@@ -1,0 +1,23 @@
+
+.nav-list-item{
+padding: 8px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.signin-link{
+    padding: 10px 12px;
+    border: 1.5px solid #F2D272;
+    border-radius: 5px;
+}
+
+.signup-link{
+    padding: 10px 12px;
+    border: 1.5px solid #F2D272;
+    border-radius: 5px;
+}

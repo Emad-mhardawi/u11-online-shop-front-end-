@@ -1,0 +1,22 @@
+.nav-links{
+    display: flex;
+    list-style: none;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:768px){
+    .nav-links{
+        display: none;
+    }
+}
+
+
+.signin-link:hover{
+    color: #F2C46D;
+}
+
+.signup-link:hover{
+    color: #F2C46D;
+}
