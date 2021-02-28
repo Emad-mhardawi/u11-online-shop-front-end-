@@ -12,9 +12,7 @@ const NavLinks = (props)=>{
             <NavigationLink to='/about'>About</NavigationLink>
             <NavigationLink to='/contact'>Contact</NavigationLink>
             <NavigationLink to='/sugnin' className='signin-link'>Sign in</NavigationLink>
-            <NavigationLink to='/signup' className='signup-link'>Sign up</NavigationLink>
-            
-            
+            <NavigationLink to='/signup' className='signup-link signup-link-side'>Sign up</NavigationLink>
         </ul>
     )
 

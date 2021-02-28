@@ -1,19 +1,21 @@
+import React from 'react';
 import MenuButton from '../../UI/MenuButton/MenuButton';
 import NavLinks from '../NavLinks/NavLinks';
 import './NavBar.css';
 
-const NavBar = ()=>{
 
-    const clicked = ()=>{
-        console.log('button was clicked')
-    }
-    return(
+const NavBar = (props) => {
+
+    return (
+
         <nav className='nav-bar'>
             <h1> emad</h1>
-            <MenuButton className='aaaa' clicked={clicked}/>
-            <NavLinks/>
-            
+            <MenuButton className={props.show ?"open":''} clicked={props.menuButtonClicked} />
+            <NavLinks />
+
         </nav>
+
+
     )
 
 }

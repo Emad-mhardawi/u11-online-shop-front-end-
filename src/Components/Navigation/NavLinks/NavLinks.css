@@ -5,10 +5,22 @@
     cursor: pointer;
 }
 
+.side-drawer-navlinks{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items:center;
+}
+
+
 
 @media only screen and (max-width:768px){
     .nav-links{
         display: none;
+    }
+
+    .side-drawer-navlinks{
+        display: flex;
     }
 }
 
