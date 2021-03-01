@@ -7,7 +7,7 @@ const NavigationLink = (props)=>{
   
     return(
         <li className='nav-list-item'>
-            <NavLink to={props.to} className={`nav-link  ${props.className}` }>
+            <NavLink exact onClick={props.clicked} to={props.to} className={`nav-link  ${props.className}` }>
                 {props.children}
             </NavLink>
         </li>

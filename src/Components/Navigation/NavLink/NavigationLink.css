@@ -1,12 +1,27 @@
 
 .nav-list-item{
 padding: 8px;
+list-style: none;
 }
 
 .nav-link{
     text-decoration: none;
     color: white;
     cursor: pointer;
+    width: 100%;
+    
+}
+
+.nav-link.side{
+font-size: 25px;
+}
+
+.nav-link:hover{
+    color: #F2C46D;
+}
+
+.nav-link.active{
+    color: #F2C46D;
 }
 
 

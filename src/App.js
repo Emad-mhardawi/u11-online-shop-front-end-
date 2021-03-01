@@ -8,7 +8,7 @@ import About from './Containers/About/About';
 import Contact from './Containers/Contact/Contact';
 import Signup from './Containers/Signup/Signup';
 import Signin from './Containers/Signin/Signin';
-import BackDrop from './Components/UI/BackDrop/BackDrop';
+
 import SideDrawer from './Components/Navigation/SideDrawer/SideDrawer';
 import { useState } from 'react';
 
@@ -24,8 +24,7 @@ const App = ()=> {
   return (
     <div className="App">
       <NavBar menuButtonClicked ={sideDrawerControll} show ={sideDrawerOpen} />
-      <SideDrawer show ={sideDrawerOpen}/>
-      <BackDrop/>
+      <SideDrawer linkClicked ={sideDrawerControll} show ={sideDrawerOpen}/>
       <Switch>
         <Route exact path='/' component={Home}/>
         <Route path='/shop' component={Shop}/>

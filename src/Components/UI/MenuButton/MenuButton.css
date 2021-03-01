@@ -7,6 +7,7 @@
     height: 35px;
     z-index: 20;
     cursor: pointer;
+    
 }
 
 .menu-button__line{
@@ -55,7 +56,7 @@
 }
 
 
-@media only screen and (min-width:768px){
+@media only screen and (min-width:600px){
     .menu-button{
         display: none;
     }
