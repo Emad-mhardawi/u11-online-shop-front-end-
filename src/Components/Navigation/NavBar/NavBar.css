@@ -9,3 +9,17 @@
     align-items: center;
     padding: 0 20px;
 }
+
+
+@media only screen and(max-width:1800px){
+    .nav-bar{
+justify-content: center;
+    }
+}
+
+
+@media only screen and (min-width:1800px){
+    .nav-bar{
+        justify-content: space-around;
+    }
+}
